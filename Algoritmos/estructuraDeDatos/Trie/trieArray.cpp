@@ -48,7 +48,7 @@ void isThereWord(string word) {
     }
 }
 
-bool trieDelete(string word){
+bool deleteWord(string word){
     if(searchWord(word)){
         node *currentNode =  trie;
         for(int i = 0; i < word.length(); i++){
